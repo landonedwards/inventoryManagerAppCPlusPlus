@@ -2,6 +2,10 @@
 
 A console app in C++ that allows you to track your inventory of supplies and generate grocery lists. 
 
+** Note:
+I had a repository with a very similar name that tracked this project, but I ran into issues in Visual Studio that prevented me from continuing to push my work. 
+This led me to delete the repository entirely and create a new one. Some of my work was lost and I had to recreate some of the application's classes. I started 
+working on this project on 10/10 but this specific repository will show that it was only created and updated on 10/17-18.
 
 ## Instructions for Build and Use
 
