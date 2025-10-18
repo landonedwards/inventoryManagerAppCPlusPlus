@@ -14,7 +14,7 @@ Menu::Menu(InventoryManager& manager) : manager(manager)
 
 /******************************************
  * MENU : RUN
- * Main menu loop - runs until user exits
+ * Main menu loop - runs until the user exits
  *****************************************/
 void Menu::run()
 {
@@ -141,7 +141,7 @@ void Menu::displayGroceryMenu()
 
    if (choice >= 1 && choice <= 4)
    {
-      NecessityLevel threshold = static_cast<NecessityLevel>(choice);
+      NecessityLevel threshold = NecessityLevel(choice);
       GroceryList list = manager.generateGroceryList(threshold);
 
       list.printFormattedList();
@@ -171,6 +171,7 @@ int Menu::getIntInput(const string& prompt)
    while (!(cin >> value))
    {
       cin.clear();
+      // Clear buffer before getline() after using cin >>
       cin.ignore(numeric_limits<streamsize>::max(), '\n');
       cout << "Invalid input. Please enter a number: ";
    }

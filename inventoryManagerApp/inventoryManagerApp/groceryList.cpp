@@ -12,6 +12,7 @@
 GroceryList::GroceryList(NecessityLevel threshold)
    : necessityThreshold(threshold), totalCost(0.0)
 {
+   // PLACEHOLDER date (will need to create a function to get the current date and format it in a string)
    generatedDate = "2025-10-17";
 }
 

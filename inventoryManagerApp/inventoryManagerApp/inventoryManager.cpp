@@ -2,7 +2,6 @@
 #include "filehandler.h"
 #include <iostream>
 #include <iomanip>
-#include <limits>
 
 using namespace std;
 
@@ -28,7 +27,6 @@ void InventoryManager::addNewItem()
 
    cout << "\n--- Add New Item ---\n";
    cout << "Name: ";
-   cin.ignore();
    getline(cin, name);
 
    cout << "Category (1=Ingredient, 2=Food, 3=Cleaning, 4=Hygiene, 5=Beverages): ";
@@ -66,7 +64,6 @@ void InventoryManager::updateItem()
 
    cout << "\n--- Update Item ---\n";
    cout << "Item name: ";
-   cin.ignore();
    getline(cin, name);
 
    Item* item = inventory.getItem(name);
@@ -94,7 +91,6 @@ void InventoryManager::removeItem()
 
    cout << "\n--- Remove Item ---\n";
    cout << "Item name: ";
-   cin.ignore();
    getline(cin, name);
 
    if (inventory.removeItem(name))

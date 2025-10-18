@@ -19,7 +19,7 @@ int main()
    // Save inventory before exiting
    if (manager.saveInventory())
    {
-      cout << "Inventory saved. Goodbye!\n";
+      cout << "Inventory saved.\n";
    }
 
    return 0;

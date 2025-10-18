@@ -112,6 +112,6 @@ vector<Item> FileHandler::loadInventoryFromCsv(const string& filename)
       items.push_back(item);
    }
 
-   file.close();
+   fin.close();
    return items;
 }
