@@ -126,13 +126,17 @@
     <ClInclude Include="fileHandler.h" />
     <ClInclude Include="groceryList.h" />
     <ClInclude Include="inventory.h" />
+    <ClInclude Include="inventoryManager.h" />
     <ClInclude Include="item.h" />
+    <ClInclude Include="menu.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fileHandler.cpp" />
     <ClCompile Include="groceryList.cpp" />
     <ClCompile Include="inventory.cpp" />
+    <ClCompile Include="inventoryManager.cpp" />
     <ClCompile Include="item.cpp" />
+    <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

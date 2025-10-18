@@ -1,4 +1,5 @@
 #include "inventory.h"
+#include "fileHandler.h"
 
 /******************************************
  * INVENTORY : CONSTRUCTOR
