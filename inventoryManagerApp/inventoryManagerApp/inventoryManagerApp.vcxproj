@@ -123,9 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="groceryList.h" />
+    <ClInclude Include="inventory.h" />
     <ClInclude Include="item.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="groceryList.cpp" />
+    <ClCompile Include="inventory.cpp" />
     <ClCompile Include="item.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
