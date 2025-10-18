@@ -136,6 +136,7 @@
     <ClCompile Include="inventory.cpp" />
     <ClCompile Include="inventoryManager.cpp" />
     <ClCompile Include="item.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
